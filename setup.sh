@@ -1,4 +1,4 @@
-rm -rf /Applications/*
+sudo rm -rf /Applications/*
 
 #!/bin/zsh
 
