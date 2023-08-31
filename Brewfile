@@ -18,7 +18,7 @@ brew "git-lfs"
 brew "hub"
 brew "hugo"
 brew "md5sha1sum"
-brew "node@16"
+brew "node"
 brew "mongosh"
 brew "mongodb-atlas-cli"
 brew "mysql", restart_service: true

@@ -16,7 +16,7 @@ brew upgrade
 brew bundle
 
 # Install quire from npm
-npm install --global @thegetty/quire-cli 
+npm install --global @thegetty/quire-cli
 
 #Check quire version
 quire --version
