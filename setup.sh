@@ -21,12 +21,6 @@ npm install --global @thegetty/quire-cli
 #Check quire version
 quire --version
 
-# Make nvim config directory
-mkdir -p ~/.config/nvim
-
-# Curl my nvim lua config
-curl https://raw.githubusercontent.com/KyberWarlord/kickstart.nvim/master/init.lua -o ~/.config/nvim/init.lua
-
 # Clear Git user.name
 git config --global --unset user.name
 
