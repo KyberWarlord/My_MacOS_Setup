@@ -47,5 +47,19 @@ git config --global user.email "$Email"
 git config --global credential.helper osxkeychain
 git config --global github.token "$PAT"
 
+# Dangerous!
+
+rm -rf ~/.config/nvim
+mkdir ~/.config/nvim
+
+git clone https://github.com/aerithnetzer/nvim.git ~/.config/nvim/
+
+pip install papis
+
+rm -rf ~/.config/papis
+mkdir ~/.config/papis
+
+git clone https://github.com/aerithnetzer/papis.git ~/.config/papis/
+
 cd ~
 
